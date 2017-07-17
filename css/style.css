@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  background:  #0079BF;
+}
+
+#board {
+  padding: 2% 5%;
+  background: #fff;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: uppercase;
+}
+
+.create-column {
+    background-color: #0079BF;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+button {
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn-delete {
+  background-color: #FF4249;
+}
+
+.add-card {
+  background-color: #838537;
+}
+
+
+.column-container {
+    color: white;
+    display: flex;
+}
+
+.column-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.column {
+  width: 33%;
+  margin: 0 10px;
+  border: solid 1px black;
+  background: #42BAFF;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.card {
+  display: flex;
+  background-color: #CCC949;
+  margin-bottom: 12px;
+  border-radius: 20px;
+}
+
+.card-description{
+    padding: 0 10px;
+}
+
+.column-card-list{
+    height: 100%;
+} 
